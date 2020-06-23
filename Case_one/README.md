@@ -10,7 +10,7 @@ The data is divided into two parts
 ## Flowchart
 
 <p align = "center">
-<img src = Images/noPre.png>
+<img src = /Images/noPre.png>
 </p>
 
 The audio files contains the audio clips consisting of the calls made by the SRKW's whereas the .tsv files contains various parameters of these audio files like the start-time of the call, the duration for which the call was there, date, location, etc
