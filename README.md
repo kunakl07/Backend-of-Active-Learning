@@ -11,4 +11,10 @@ Below is the flowchart that explains each of the case and the models used for tr
 <img src = Images/General_flow.png>
 </p>
 
+## The three cases are:
+ - Preprocessing without applying PCEN and Wavelet-Denoising
+ - Preprocessing using PCEN
+ - Preprocessing using PCEN and Wavelet-Denoising
+ 
+ 
 
