@@ -6,8 +6,9 @@ Below is the flowchart that explains each of the case and the models used for tr
 
 # General flow 
 
+
 <p align = "center">
-<img src = Image/General_flow.png>
+<img src = Images/General_flow.png>
 </p>
 
 
