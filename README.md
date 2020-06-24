@@ -18,15 +18,15 @@ Below is the flowchart that explains each of the case and the models used for tr
 
 ### The different models that are used in the above cases are:
 1. Preprocessing without PCEN and Wavelet Denosing  
- 1. Basic Convolution Neural Network
- 2. VGG-16
+    1. Basic Convolution Neural Network
+    2. VGG-16
   
 2. Preprocessing with PCEN 
-  1. VGG-16
+    1. VGG-16
   
 3. Preprocessing with PCEN and Wavelet Denoising
-  1. Resnet-512
-  2. VGG-16
-  3. Basic CNN 
-  4. InceptionResnet-V2
+    1. Resnet-512
+    2. VGG-16
+    3. Basic CNN 
+    4. InceptionResnet-V2
   
