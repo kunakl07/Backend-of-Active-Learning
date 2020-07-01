@@ -15,11 +15,11 @@ python simple_preprocess.py --tsvpath --audiopath --calltime
 --outputplotpathpos --outputplotpathneg
 
 ```
-Here the parameters are
-tsvpath: The path to the .tsv file
-audiopath: The path to the audio
-calltime: The call time of the SRKWs
-outputpathpositive: The output path of the positive extracted calls
-outputpathnegative: The output path of the negative extracted calls
-outplotpathpos: The output path where the spectrgrams are plotted from the extracted audio files containing calls
-outputplotpathneg:  The output path where the spectrgrams are plotted from the extracted audio files not containing calls
+Here the parameters are:
+- tsvpath: The path to the .tsv file
+- audiopath: The path to the audio
+- calltime: The call time of the SRKWs
+- outputpathpositive: The output path of the positive extracted calls
+- outputpathnegative: The output path of the negative extracted calls
+- outplotpathpos: The output path where the spectrgrams are plotted from the extracted audio files containing calls
+- outputplotpathneg:  The output path where the spectrgrams are plotted from the extracted audio files not containing calls
