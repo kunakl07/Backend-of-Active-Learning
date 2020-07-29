@@ -32,3 +32,11 @@ Below is the flowchart that explains each of the case and the models used for tr
   
 # Active Learning Phase
 This is the active learning phase that would be used to evaluate the outcome of the active learning on the model where a small subset would be extracted and the model would perform probability predictions on these subset, which depending on the probability would be passed to the labeler or directly to the model.
+
+
+# Active Learning flow 
+
+
+<p align = "center">
+<img src = Images/active_final.png>
+</p>
