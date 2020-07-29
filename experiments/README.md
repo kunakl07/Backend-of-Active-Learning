@@ -23,7 +23,7 @@
  </tr>
   <tr>
     <td>PSD_Grayscale_Spectrogram</td>
-     <td><p align = "right">
+     <td><p align = "center">
 <img src = /Images/grayscale_psd.png>
 </p>
 </td>
