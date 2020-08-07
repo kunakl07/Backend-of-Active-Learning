@@ -50,3 +50,9 @@ I have worked on this active learning pipeline where I have taken the following 
     these calls to the labeler to label them.
 5. But, if the value of the predicted sample is greater than 0.6 assign it no call, and if the value is less then 0.4 assign the sample call.
 6. Retrain the model on the combined data(samples labeled by the model as well as the user).
+
+## The ROC curve
+
+<p align = "center">
+<img src = Images/ROC_correct.png>
+</p>
