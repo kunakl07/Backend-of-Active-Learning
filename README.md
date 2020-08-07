@@ -56,3 +56,5 @@ I have worked on this active learning pipeline where I have taken the following 
 <p align = "center">
 <img src = Images/ROC_correct.png>
 </p>
+
+The CNN model of the case three generates the following ROC curve.
