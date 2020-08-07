@@ -1,10 +1,17 @@
+[Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1QZxiXt04PdNgEK3XYSs8TqLH0ICcw_P4/view?usp=sharing)
+
+[Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1YCfQBGpP-XpZd204BpqDFhjz2HFX2ZDJ/view?usp=sharing)
+
+[Trained CNN model of Melspectrograms generated after applying PCEN and Wavelet Denoising](https://drive.google.com/file/d/1jJ-E4M1Hwn7CQnZxxWlp-ejPGmdRlvPu/view?usp=sharing)
+
+[Trained CNN model of Melspectrograms generated after applying PCEN](https://drive.google.com/file/d/1xUiNp_OUNRLR82sOa2wy8VwaI98-FUrj/view?usp=sharing)
 ## Here are the different trained models on different spectrograms whose example has been provided
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Title</b></td>
  </tr>
- <tr>
-    <td> [Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1QZxiXt04PdNgEK3XYSs8TqLH0ICcw_P4/view?usp=sharing) </td>
+ <tr><tr>
+    <td>[Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1QZxiXt04PdNgEK3XYSs8TqLH0ICcw_P4/view?usp=sharing)</td>
      <td><p align = "center">
 <img src = /Images/psd_color_scipy.png>
 </p>
