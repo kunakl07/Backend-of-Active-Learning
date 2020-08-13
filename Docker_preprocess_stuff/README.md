@@ -3,10 +3,10 @@
 ```
 sudo docker build -t 'preprocess' .
 ```
-### Docker command to run the process 
+### Docker command to run the process(you could run any of the tsv file, call time, preprocessing command)
 
 ```
- sudo docker run -ti preprocess_three --tsv_path test_extract_audio.tsv --files_dir .  --call_time 3 --output_dir output --power_soutputectral_density 
+ sudo docker run -ti preprocess_three --tsv_path test_extract_audio.tsv --files_dir .  --call_time 3 --output_dir output --power_spectral_density 
 ```
 ### If you want to explore the container
 
