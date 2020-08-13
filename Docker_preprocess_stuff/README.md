@@ -20,7 +20,7 @@ sudo docker build -t 'preprocess' .
 sudo docker start stupefied_dirac
 ```
 
-### Copy those commands to the output directory
+### Copy those commands to the output directory and replace the 'output_path' by your output directory name
 
 ```
  sudo docker cp stupefied_dirac:/usr/src/app/output_dir/ output_path/
