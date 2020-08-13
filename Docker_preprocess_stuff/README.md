@@ -14,7 +14,7 @@ sudo docker build -t 'preprocess' .
  sudo docker ps -a
 ```
 
-### After finding the name of the container run the following command, here stupefied_dirac is my container name, replace it with your's
+### After finding the name of the container run the following command, here stupefied_dirac is my container name, replace it with your container name
 
 ```
 sudo docker start stupefied_dirac
