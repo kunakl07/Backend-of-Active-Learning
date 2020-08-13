@@ -1,5 +1,5 @@
 
-Command for running the script
+Command for running the script, you could use either of the combination with different cases to generate spectrograms
 
 ```
 
