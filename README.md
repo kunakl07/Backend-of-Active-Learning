@@ -1,3 +1,7 @@
+
+# Backend-of-Active-Learning
+These Repository contains the necessary code for the Backend of Active Learning
+
 The directory structure of our project looks like this: 
 
 ```
@@ -58,8 +62,7 @@ The directory structure of our project looks like this:
 └── experiments        <- Different types of spectrograms used and the accuracy we get using each spectrogram
 
 ```
-# Backend-of-Active-Learning
-These Repository contains the necessary code for the Backend of Active Learning
+The three cases are explained below in brief:
 
 The three cases contains three different ways in which data is preprocessed and passed to different models for performing predictions.
 Below is the flowchart that explains each of the case and the models used for training in each cases
