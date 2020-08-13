@@ -35,20 +35,20 @@ The directory structure of your new project looks like this:
 ├── active_learning
 │   └── active_learning_pipeling <-Jupyter notebook in colab performing active learning.
 |
-├── trained_models     <- Trained and serialized models, model predictions, or model summaries for different preprocessing cases
+├── trained_models   <- Trained and serialized models, model predictions, or model summaries for different preprocessing cases
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── references       <- Data dictionaries, manuals, and all other explanatory materials.
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+├── requirements.txt <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
-├── scripts                <- Source code for use in this project.
-│   ├── preprocess_data    <- Scripts to preprocess audio data and generate spectrograms
+├── scripts                 <- Source code for use in this project.
+│   ├── preprocess_data     <- Scripts to preprocess audio data and generate spectrograms
 |   |    ├── selection.py   <- Script to generate background noise
 │   │    └── preprocess.py  <- Script to preprocess_data
 │   |
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
+│   ├── models              <- Scripts to train models and then use trained models to make
+│   │   │                      predictions
 │   │   └── train_model.py
 │   │  
 │   │
