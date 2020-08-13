@@ -89,7 +89,8 @@ Below is the flowchart that explains each of the case and the models used for tr
     2. VGG-16
     3. Basic CNN 
     4. InceptionResnet-V2
-  
+
+#### Note: Although, in the directory structure we have preprocessing and training using Ketos we are not going to use this phase for active learning, but we are going to use the three cases for the active learning.
 # Active Learning Phase
 This is the active learning phase that would be used to evaluate the outcome of the active learning on the model where a small subset would be extracted and the model would perform probability predictions on these subset, which depending on the probability would be passed to the labeler or directly to the model.
 
