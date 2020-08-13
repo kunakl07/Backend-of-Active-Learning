@@ -17,22 +17,22 @@ The directory structure of our project looks like this:
 │   └── README.md 
 |
 ├── Case_one
-│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing
+│   ├── Preprocessing <- Jupyter notebook in colab performing preprocessing
 │   ├── Training      <- Jupyter notebook in colab performing training
 |   └── README.md 
 |
 ├── Case_two
-│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing process using case two
+│   ├── Preprocessing <- Jupyter notebook in colab performing preprocessing process using case two
 │   ├── Training      <- Jupyter notebook in colab performing training stage on stage two preprocessed spectrograms.
 |   └── README.md
 |
 ├── Case_three
-│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing process using case three.
+│   ├── Preprocessing <- Jupyter notebook in colab performing preprocessing process using case three.
 │   ├── Training      <- Jupyter notebook in colab performing training stage on case three preprocessed spectrograms.
 |   └── README.md
 │
 ├── Preprocessing and training using Ketos
-│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing using Ketos library.
+│   ├── Preprocessing <- Jupyter notebook in colab performing preprocessing using Ketos library.
 │   ├── Training      <- Jupyter notebook in colab performing training stage on preprocessed spectrograms.
 |   └── README.md
 |
