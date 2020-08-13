@@ -1,5 +1,4 @@
-### Docker command to build, here preprocess is the name of the container
-
+### Docker command to build, here preprocess is the name, I have given 
 ```
 sudo docker build -t 'preprocess' .
 ```
