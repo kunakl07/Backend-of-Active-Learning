@@ -13,7 +13,7 @@ The directory structure of our project looks like this:
 |
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
-│   ├── tsv_files      <- Data from third party sources.
+│   ├── tsv_files      <-  The .tsv files.
 │   └── README.md 
 |
 ├── Case_one
