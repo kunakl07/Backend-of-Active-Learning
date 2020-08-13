@@ -1,3 +1,63 @@
+The directory structure of your new project looks like this: 
+
+```
+├── LICENSE
+├── Dockerfile
+|    ├── preprocessing <- The preprocessing script. 
+|    ├── training      <- The model building and training script.
+|    └── README.md 
+|
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── tsv_files      <- Data from third party sources.
+│   └── README.md 
+|
+├── Case_one
+│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing
+│   ├── Training      <- Jupyter notebook in colab performing training
+|   └── README.md 
+|
+├── Case_two
+│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing process using case two
+│   ├── Training      <- Jupyter notebook in colab performing training stage on stage two preprocessed spectrograms.
+|   └── README.md
+|
+├── Case_three
+│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing process using case three.
+│   ├── Training      <- Jupyter notebook in colab performing training stage on case three preprocessed spectrograms.
+|   └── README.md
+│
+├── Preprocessing and training using Ketos
+│   ├── Preprocessing <-Jupyter notebook in colab performing preprocessing using Ketos library.
+│   ├── Training      <- Jupyter notebook in colab performing training stage on preprocessed spectrograms.
+|   └── README.md
+|
+├── active_learning
+│   └── active_learning_pipeling <-Jupyter notebook in colab performing active learning.
+|
+├── trained_models     <- Trained and serialized models, model predictions, or model summaries for different preprocessing cases
+│
+├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+│                         generated with `pip freeze > requirements.txt`
+│
+├── scripts                <- Source code for use in this project.
+│   ├── preprocess_data    <- Scripts to preprocess audio data and generate spectrograms
+|   |    ├── selection.py   <- Script to generate background noise
+│   │    └── preprocess.py  <- Script to preprocess_data
+│   |
+│   ├── models         <- Scripts to train models and then use trained models to make
+│   │   │                 predictions
+│   │   └── train_model.py
+│   │  
+│   │
+│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+│       └── visualize.py
+│
+└── experiments        <- Different types of spectrograms used and the accuracy we get using each spectrogram
+
+```
 # Backend-of-Active-Learning
 These Repository contains the necessary code for the Backend of Active Learning
 
