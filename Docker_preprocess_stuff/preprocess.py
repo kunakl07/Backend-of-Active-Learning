@@ -5,6 +5,7 @@ from pathlib import Path
 
 import librosa
 import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import pandas as pd
@@ -14,7 +15,6 @@ from skimage.restoration import denoise_wavelet
 
 import selection_table
 
-matplotlib.use('Agg')
 
 
 def generate_negative_tsv(
