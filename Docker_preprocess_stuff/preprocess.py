@@ -43,12 +43,6 @@ def generate_negative_tsv(
         A pandas dataframe containing start_time and end_time of the
         background sounds.
     """
-    # load tsv file
-    #call_annotations = pd.read_csv(call_annotations, sep="\t")
-    #call_length_mean = call_annotations["duration_s"].mean()
-    #print("The mean of the call duration is {}".format(call_length_mean))
-    #call_annotations["end"] = call_annotations["start"] + call_annotations["duration_s"]
-
     standardized_annotations = selection_table.standardize(
         table=call_annotations,
         signal_labels=["SRKWs"],
