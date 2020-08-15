@@ -118,7 +118,7 @@ I have worked on this active learning pipeline where I have taken the following 
 ## The ROC curve
 
 <p align = "center">
-<img src = Images/ROC_correct.png>
+<img src = Images/CNN_final_vs_random.png>
 </p>
 
 The CNN model of the case three generates the following ROC curve.
