@@ -17,21 +17,21 @@
  <tr>
     <td>PSD_Spectrogram</td>
      <td><p align = "center">
-<img src = /Images/psd_color_scipy.png>
+<img src = /images/psd_color_scipy.png>
 </p>
 </td>
  </tr>
   <tr>
     <td>PSD_Grayscale_Spectrogram</td>
      <td><p align = "center">
-<img src = /Images/grayscale_psd.png>
+<img src = /images/grayscale_psd.png>
 </p>
 </td>
  </tr>
   <tr>
     <td>Mel_Spectrogram</td>
      <td><p align = "right">
-<img src = /Images/melscale.png>
+<img src = /images/melscale.png>
 </p>
 </td>
  </tr>
@@ -39,7 +39,7 @@
    <tr>
     <td>Mel_Spectrogram after PCEN</td>
      <td><p align = "right">
-<img src = /Images/pcen_melspectrogram.png>
+<img src = /images/pcen_melspectrogram.png>
 </p>
 </td>
  </tr>
@@ -47,7 +47,7 @@
    <tr>
     <td>Mel_Spectrogram after PCEN and Wavelet Denoising</td>
      <td><p align = "right">
-<img src = /Images/wavelet_denoising_mel.png>
+<img src = /images/wavelet_denoising_mel.png>
 </p>
 </td>
  </tr>
@@ -56,7 +56,7 @@
    <tr>
     <td>Grayscale Mel_Spectrogram after PCEN and Wavelet Denoising</td>
      <td><p align = "right">
-<img src = /Images/greyscale(2).png>
+<img src = /images/greyscale(2).png>
 </p>
 </td>
  </tr>
