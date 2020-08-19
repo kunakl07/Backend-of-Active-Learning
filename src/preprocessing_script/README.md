@@ -1,3 +1,7 @@
+Please Note that the following headers are required for the preprocessing script 
+
+filename, start, duration_s and label. If you have some other header please change the .tsv with the following ones
+
 ### Docker command to build(here preprocess is the name, I have given, you could give whatever you want)
 ```
 sudo docker build -t 'preprocess' .
