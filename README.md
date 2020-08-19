@@ -1,9 +1,16 @@
 # Backend-of-Active-Learning
 These Repository contains the necessary code for the Backend of Active Learning
 
+Most of the data present in the world are unlabeled. Even though labeling data is an expensive, difficult, and slow process, it is an essential part of the Machine  Learning system. But what if a model could achieve a similar accuracy just by annotating a small amount of dataset. With the help of Active Learning, you can spend 10-20% of the time annotating data and still get the same performance.
+Therefore, we going to build an active learning tool that would label the vast amounts of unlabeled data coming in real-time streams from ocean observing systems.
+
+## Dataset 
+
+I have used the podcast Round 2 and pocast Round 3 dataset provided by Orcasound
+This github repository consists of the necessary steps taken for the backend i.e. preprocessing, building CNN models, and active learning. Along with this, this repository also contains different accuracy achieved by different models with the steps necessary steps taken to achieve that accuracy.
 
 # Backend-of-Active-Learning
-These Repository contains the necessary code for the Backend of Active Learning
+These repository contains the necessary code for the Backend of Active Learning
 
 The directory structure of our project looks like this: 
 
