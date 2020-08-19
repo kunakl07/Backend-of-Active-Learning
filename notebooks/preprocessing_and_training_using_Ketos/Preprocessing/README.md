@@ -3,7 +3,7 @@
 ## Pipeline
 
 <p align = "center">
-<img src = /Images/preprocess2.png>
+<img src = /images/preprocess2.png>
 </p>
 
 The eight stages in the above pipeline are explained below
