@@ -24,11 +24,6 @@ The implementation part consists of the stages:
      /images/general_stage.png>
 </p>
 
-
-
-# Backend-of-Active-Learning
-These repository contains the necessary code for the Backend of Active Learning
-
 The directory structure of our project looks like this: 
 
 ```
