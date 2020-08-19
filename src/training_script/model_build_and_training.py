@@ -109,7 +109,7 @@ def train(
                                     validation_data_path))
 
     epochs = no_of_epochs
-    batch_size = 256
+    batch_size = 32
     checkpoint = ModelCheckpoint(
             filepath="checkpoint_srkw-{epoch:02d}-{val_loss:.2f}.h5",
             monitor="val_loss", verbose=0, save_best_only=True)
@@ -124,8 +124,8 @@ def train(
     # only rescaling
     test_datagen = ImageDataGenerator(rescale=1. / 255)
 
-    train_batchsize = 256
-    val_batchsize = 256
+    train_batchsize = 32
+    val_batchsize = 22
 
     train_generator = train_datagen.flow_from_directory(
         train_data_path,
