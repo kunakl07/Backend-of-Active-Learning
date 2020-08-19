@@ -72,7 +72,7 @@ Below is the flowchart that explains each of the case and the models used for tr
 
 <p align = "center">
 <img src = 
-     images/General_flow.png>
+     /images/General_flow.png>
 </p>
 
 ## The three cases are:
@@ -103,7 +103,7 @@ This is the active learning phase that would be used to evaluate the outcome of 
 
 
 <p align = "center">
-<img src = images/active_final.png>
+<img src = /images/active_final.png>
 </p>
 
 I have worked on this active learning pipeline where I have taken the following steps:
@@ -119,7 +119,7 @@ I have worked on this active learning pipeline where I have taken the following 
 ## The ROC curve
 
 <p align = "center">
-<img src = images/CNN_final_vs_random.png>
+<img src = /images/CNN_final_vs_random.png>
 </p>
 
 The CNN model of the case three generates the following ROC curve.
