@@ -3,10 +3,10 @@ Please note that the following headers are required for the preprocessing script
 | filename | start	| duration_s |	label |
   | --------------------------- | ---------------- | --------------------- | ------------------------- |
 
-filename: name of the audio file
-start: start time of the call
-duration_s: duration of the call in seconds
-label: label to which the call belongs
+- filename: name of the audio file
+- start: start time of the call
+- duration_s: duration of the call in seconds
+- label: label to which the call belongs
 ### Docker command to build(here preprocess is the name, I have given, you could give whatever you want)
 ```
 sudo docker build -t 'preprocess' .
