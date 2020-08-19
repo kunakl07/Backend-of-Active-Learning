@@ -23,7 +23,6 @@ The implementation part consists of the stages:
 <img src = 
      /images/general_stage.png>
 </p>
-The front end is being built by Jorge Diego
 
 
 
