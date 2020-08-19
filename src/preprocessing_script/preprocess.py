@@ -273,7 +273,7 @@ def select_spec_case(
     onlyfiles = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
     for id, file in enumerate(onlyfiles):
         fpath = os.path.join(folder_path, file)
-        data, sr = librosa.core.load(fpath, res_type="kaiser_best")
+        data, sr = librosa.core.load(fpath, sr=22050, res_type="kaiser_best")
         f_name = os.path.basename(file)
         spectrogram_data = librosa.feature.melspectrogram(
                                                       data,
