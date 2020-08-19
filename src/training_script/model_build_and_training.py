@@ -2,7 +2,7 @@ import argparse
 import logging
 import logging.config
 import os
-
+import tensorflow as tf
 from keras import backend as K
 from keras import optimizers, regularizers
 from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
