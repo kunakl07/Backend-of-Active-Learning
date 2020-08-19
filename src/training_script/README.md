@@ -9,3 +9,5 @@ sudo docker run -ti training_script --classpath [PATH TO THE TRAINING DIRECTORY]
 
 1. classpath: The path to the spectrogram images
 2. noofepochs: The number of epochs for which the model is to be trained
+
+The command runs fine and thanks Diego[!https://github.com/jd-rs] for testing it out as well
