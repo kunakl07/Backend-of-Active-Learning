@@ -6,9 +6,18 @@ Therefore, we going to build an active learning tool that would label the vast a
 
 ## Dataset 
 
-I have used the podcast Round 2 and pocast Round 3 dataset provided by Orcasound
 This github repository consists of the necessary steps taken for the backend i.e. preprocessing, building CNN models, and active learning. Along with this, this repository also contains different accuracy achieved by different models with the steps necessary steps taken to achieve that accuracy.
-I have used the [podcast round 2](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab07052019_PodCastRound2) and [podcast round 3](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab09272017_PodCastRound3) for training the model. The dataset was neatly labeled by the Orcasound Organization that helped me a lot in preprocessing it.
+I have used the [podcast round 2](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab07052019_PodCastRound2) and [podcast round 3](https://github.com/orcasound/orcadata/wiki/Pod.Cast-data-archive#OrcasoundLab09272017_PodCastRound3) for training the model. The dataset was neatly labeled by the Orcasound organization that helped me a lot in preprocessing it.
+
+## Implementation
+
+The implementation part consists of the stages:
+- Data extraction and preprocessing 
+- Model building and training
+- Active learning
+
+The front end is being built by Jorge Diego
+
 
 
 # Backend-of-Active-Learning
