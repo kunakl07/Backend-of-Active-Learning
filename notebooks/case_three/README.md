@@ -6,7 +6,7 @@ This is the case where both the preprocessing stages PCEN and Wavelet-denoising 
 
 
 <p align = "center">
-<img src = /Images/pre_train.png>
+<img src = /images/pre_train.png>
 </p>
 
 
