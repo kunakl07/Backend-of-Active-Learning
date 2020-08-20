@@ -3,8 +3,10 @@ The preprocessing script is used convert the audio files into spectrograms conta
 These are the different types of spectrograms that the user could plot with the help of given commands!
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Spectrogram command</b></td>
+  <td>b style="font-size:30px">Spectrogram generated<td>
  </tr>
+ 
  <tr>
     <td>--power_spectral_density</td>
      <td><p align = "center">
