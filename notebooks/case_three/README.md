@@ -34,10 +34,11 @@ MODEL TRAINING PHASE
 
 ## ResNet-512
 
+1. Downloaded the ResNet-512 model.
+2. Removed the last layer from ResNet-512 and added dense layer for the prediction of two classes(SRKW calls or no calls).
 
 ##  CNN model
-
-
-## InceptionResNetV2
+ 
+1. Build CNN model from scratch.
 
 
