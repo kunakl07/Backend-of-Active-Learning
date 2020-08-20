@@ -1,3 +1,50 @@
+The preprocessing script is used convert the audio files into spectrograms containing calls and no calls.
+
+These are the different types of spectrograms that the user could plot!
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Title</b></td>
+ </tr>
+ <tr>
+    <td>PSD_Spectrogram</td>
+     <td><p align = "center">
+<img src = /images/psd_color_scipy.png>
+</p>
+</td>
+ </tr>
+  <tr>
+    <td>PSD_Grayscale_Spectrogram</td>
+     <td><p align = "center">
+<img src = /images/grayscale_psd.png>
+</p>
+</td>
+ </tr>
+  <tr>
+    <td>Mel_Spectrogram</td>
+     <td><p align = "right">
+<img src = /images/melscale.png>
+</p>
+</td>
+ </tr>
+    
+   <tr>
+    <td>Mel_Spectrogram after PCEN</td>
+     <td><p align = "right">
+<img src = /images/pcen_melspectrogram.png>
+</p>
+</td>
+ </tr>
+    
+   <tr>
+    <td>Mel_Spectrogram after PCEN and Wavelet Denoising</td>
+     <td><p align = "right">
+<img src = /images/wavelet_denoising_mel.png>
+</p>
+</td>
+ </tr>
+ 
+</table>
+
 Please note that the following headers are required for the preprocessing script filename, start, duration_s and label. If you have some other header please change the .tsv with the following ones.
 
 | filename | start	| duration_s |	label |
