@@ -1,4 +1,4 @@
-The preprocessing script is used convert the audio files into spectrograms containing calls and no calls.
+The preprocessing script is used convert the audio files into spectrograms containing calls and no calls. The spectrogram type is specified by the user
 
 These are the different types of spectrograms that the user could plot with the help of given commands!
 <table border="0">
