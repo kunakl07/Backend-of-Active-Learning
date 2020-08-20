@@ -1,26 +1,26 @@
 The preprocessing script is used convert the audio files into spectrograms containing calls and no calls.
 
-These are the different types of spectrograms that the user could plot!
+These are the different types of spectrograms that the user could plot with the help of given commands!
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Title</b></td>
  </tr>
  <tr>
-    <td>PSD_Spectrogram</td>
+    <td>--power_spectral_density</td>
      <td><p align = "center">
 <img src = /images/psd_color_scipy.png>
 </p>
 </td>
  </tr>
   <tr>
-    <td>PSD_Grayscale_Spectrogram</td>
+    <td>--power_spectral_density --grayscale</td>
      <td><p align = "center">
 <img src = /images/grayscale_psd.png>
 </p>
 </td>
  </tr>
   <tr>
-    <td>Mel_Spectrogram</td>
+    <td>--melpectrogram</td>
      <td><p align = "right">
 <img src = /images/melscale.png>
 </p>
@@ -28,7 +28,7 @@ These are the different types of spectrograms that the user could plot!
  </tr>
     
    <tr>
-    <td>Mel_Spectrogram after PCEN</td>
+    <td>--melspectrogram --pcen</td>
      <td><p align = "right">
 <img src = /images/pcen_melspectrogram.png>
 </p>
@@ -36,7 +36,7 @@ These are the different types of spectrograms that the user could plot!
  </tr>
     
    <tr>
-    <td>Mel_Spectrogram after PCEN and Wavelet Denoising</td>
+    <td>--melspectrogram --pcen --wavelet</td>
      <td><p align = "right">
 <img src = /images/wavelet_denoising_mel.png>
 </p>
