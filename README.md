@@ -115,7 +115,7 @@ The directory structure of our project looks like this:
 ```
 
 
-## Contributing to <project_name>
+## Contributing to <Backend-of-Active-Learning>
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 To contribute to Backend-of-Active-Learning, follow these steps:
 
