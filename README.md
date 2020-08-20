@@ -111,7 +111,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 Thanks to the following people who have contributed to this project without whom the project would never have been completed.
 
 My Mentors:
- * [@jesselopez](https://github.com/yosoyjay) : 
+ * [@jesselopez](https://github.com/yosoyjay)
  * [@valentina-s](https://github.com/valentina-s) 
  * [@scottveirs](https://github.com/scottveirs) 
  * [@abhisheksingh](https://github.com/ZER-0-NE)
