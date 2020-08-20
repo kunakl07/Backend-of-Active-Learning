@@ -34,8 +34,8 @@ model_predict.py: Would predict the call if present
 ```
 CLASSPATH
 ├── test_srkw
-│   ├── calls
-│   └── no_calls
+    ├── calls
+    └── no_calls
 ```
 The command to run the predict script is:
 ```
@@ -48,3 +48,7 @@ The command to plot the ROC curve is:
 ```
 python statistics.py --modelpath Path to the model --testpath Path to the test directory
 ```
+The ROC curve similar to this would be plotted
+<p align = "center">
+<img src = /images/CNN_final_vs_random.png>
+</p>
