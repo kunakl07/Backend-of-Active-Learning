@@ -1,28 +1,33 @@
 import logging
 import argparse
-import numpy as np
 import random
-import sklearn
-from keras.models import load_model
 from keras.preprocessing.image import ImageDataGenerator
-from sklearn import metrics
-from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
 from matplotlib import pyplot
-from sklearn.metrics import precision_recall_curve
-from sklearn.metrics import f1_score
-from sklearn.metrics import auc
 import tensorflow as tf
-import keras
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def plot_roc_curve(test_path, model_path, predictions, true_classes, randomlist):
-    # roc curve and auc
+def plot_roc_curve(test_path,
+                   model_path,
+                   predictions,
+                   true_classes,
+                   randomlist):
+    """ Plot the ROC curve
 
+    Args:
+        test_path: The path to the test directory
+        model_path: The path to the model
+        predictions: The predictions on the test dataset predicted by the model
+        true_classes: The true labels of the test set
+        randomlist: A numpy array with random integers consisting either 0 or 1
+
+    Returns:
+            None
+    """
     ns_probs = randomlist
     lr_probs = predictions[:, 0]
     # calculate scores
@@ -57,9 +62,8 @@ def main(args):
         target_size=(img_width, img_height),
         batch_size=32,
         shuffle=False)
-    test_steps_per_epoch = (test_data_generator.samples / test_data_generator.batch_size)
+
     true_classes = test_data_generator.classes
-    class_labels = list(test_data_generator.class_indices.keys())
     # generate  class dataset
 
     randomlist = []
@@ -69,8 +73,8 @@ def main(args):
     model = tf.keras.models.load_model(model_path)
     predictions = model.predict_proba(test_data_generator)
 
-  
-    plot_roc_curve(model_path, test_path, predictions, true_classes, randomlist)
+
+ plot_roc_curve(model_path, test_path, predictions, true_classes, randomlist)
 
 
 if __name__ == '__main__':
