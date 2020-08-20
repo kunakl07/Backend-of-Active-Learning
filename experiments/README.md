@@ -1,3 +1,4 @@
+This directory contains various experiments performed with different types of spectrograms on different models, and an accuracy chart giving the accuracy of different types of spectrograms using the CNN model. 
 
 - ### Accuracy chart of different spectrograms
     | Type of spectrograms | Color-colormap | Accuracy on test-set |  Accuracy on training-set |                                                           
@@ -7,7 +8,7 @@
     |  Mel-Spectrograms PCEN and Wavelet Denoising  | RGB-viridis      | 81%                   | 88%-91%                   |
     |  Mel-Spectrograms | Grayscale-Greys | 75% |  |
 
-/
+
 ## Here are different spectrograms generated on one of the .wav file that contains the calls
 
 <table border="0">
