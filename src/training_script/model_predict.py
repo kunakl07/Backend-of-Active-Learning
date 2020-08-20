@@ -52,7 +52,7 @@ def predict(model_path, test_path):
         if classes[i][0] == 1:
             shutil.copy(f_n, 'calls')
     logger.info(
-        f"Detected {sum(len(files) for _, _, files in os.walk('calls'))} orca calls")
+        f"Detected {sum(len(files) for _, _, files in os.walk('calls'))} srkw calls")
 
 
 def main(args):
@@ -64,7 +64,7 @@ def main(args):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(
-        description="Predict which images are orcas")
+        description="Predict which images are srkws")
     parser.add_argument(
         '-m',
         '--modelpath',
