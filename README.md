@@ -129,16 +129,19 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 ## Contributors
 
-Thanks to the following people who have contributed to this project without whom the project would never have been completed:
+Thanks to the following people who have contributed to this project without whom the project would never have been completed.
+
 My Mentors:
-* [@jesselopez](https://github.com/yosoyjay) : 
-* [@valentina-s](https://github.com/valentina-s) 
-* [@scottveirs](https://github.com/scottveirs) 
-* [@abhisheksingh](https://github.com/ZER-0-NE)
-* [@valveirs](https://github.com/veirs)
+ * [@jesselopez](https://github.com/yosoyjay) : 
+ * [@valentina-s](https://github.com/valentina-s) 
+ * [@scottveirs](https://github.com/scottveirs) 
+ * [@abhisheksingh](https://github.com/ZER-0-NE)
+ * [@valveirs](https://github.com/veirs)
+
 My partner who is working on the front-end part
-* [@jorgediego](https://github.com/jd-rs)
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
+ * [@jorgediego](https://github.com/jd-rs)
+
+
 
 ## Contact
 
