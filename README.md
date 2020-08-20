@@ -34,22 +34,6 @@ The directory structure of our project looks like this:
 │   ├── experiments/README.md
 │   ├── experiments/Sir_Val's_method_color.ipynb
 │   └── experiments/Spectrograms.ipynb
-├── images
-│   ├── images/active_final.png
-│   ├── images/activelearning_general_stage.png
-│   ├── images/CNN_final_vs_random.png
-│   ├── images/General_flow.png
-│   ├── images/grayscale_psd.png
-│   ├── images/greyscale(2).png
-│   ├── images/melscale.png
-│   ├── images/noPre.png
-│   ├── images/onlyPCEN.png
-│   ├── images/pcen_melspectrogram.png
-│   ├── images/preprocess2.png
-│   ├── images/pre_train.png
-│   ├── images/psd_color_scipy.png
-│   ├── images/ROC_correct.png
-│   └── images/wavelet_denoising_mel.png
 ├── notebooks
 │   ├── notebooks/active_learning
 │   │   └── notebooks/active_learning/active_learning_pipeline.ipynb
