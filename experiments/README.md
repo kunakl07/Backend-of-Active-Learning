@@ -1,4 +1,4 @@
-This directory contains various experiments performed with different types of spectrograms on different models, and an accuracy chart giving the accuracy of different types of spectrograms using the CNN model. 
+This directory contains various experiments performed with different types of spectrograms on different models, and an accuracy chart giving the accuracy of different types of spectrograms on the CNN model. 
 
 - ### Accuracy chart of different spectrograms
     | Type of spectrograms | Color-colormap | Accuracy on test-set |  Accuracy on training-set |                                                           
