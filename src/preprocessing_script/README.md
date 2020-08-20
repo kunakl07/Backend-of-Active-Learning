@@ -4,7 +4,7 @@ These are the different types of spectrograms that the user could plot with the 
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Spectrogram command</b></td>
-  <td><b style="font-size:30px">Spectrogram generated</b><td>
+  <td><b style="font-size:30px">Spectrogram generated</b></td>
  </tr>
  
  <tr>
