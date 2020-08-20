@@ -47,6 +47,7 @@ These are the different types of spectrograms that the user could plot with the 
  
 </table>
 
+## Note: Selection table library was created by Ketos!
 Please note that the following headers are required for the preprocessing script filename, start, duration_s and label. If you have some other header please change the .tsv with the following ones.
 
 | filename | start	| duration_s |	label |
