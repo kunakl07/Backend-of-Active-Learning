@@ -21,7 +21,7 @@ sudo docker build -t 'training_script' .
 ```
 The command to run dockerfile
 ```
-sudo docker run -ti training_script --classpath [PATH TO THE TRAINING DIRECTORY] --noofepochs [NO OF EPOCHS]
+sudo docker run training -m preprocess_mag_scipy_Srkws.h5 -c tests/ 
 ```
 
 1. classpath: The path to the spectrogram images
