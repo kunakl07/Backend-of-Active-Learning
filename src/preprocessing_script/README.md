@@ -19,7 +19,7 @@ sudo docker build -t 'preprocess' .
 ### Docker command to run the process(you could run any of the preprocessing command)
 
 ```
-sudo docker run -ti preprocess_aws --tsv_path podcast2.tsv --files_dir Round2_OS_07_05/wav/  --call_time 3 --output_dir output --power_spectral_density
+sudo docker run -ti preprocess --tsv_path podcast2.tsv --files_dir Round2_OS_07_05/wav/  --call_time 3 --output_dir output --power_spectral_density
 ```
 ### If you want to explore the container
 
