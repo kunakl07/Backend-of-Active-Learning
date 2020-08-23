@@ -1,11 +1,11 @@
 This directory consists of different trained models along with their respective spectrograms. Please use the same model of which you are going to plot the spectrogram.
-[Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1QZxiXt04PdNgEK3XYSs8TqLH0ICcw_P4/view?usp=sharing)
+ - [Trained CNN model of Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1QZxiXt04PdNgEK3XYSs8TqLH0ICcw_P4/view?usp=sharing)
 
-[Trained CNN model of Grayscale Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1YCfQBGpP-XpZd204BpqDFhjz2HFX2ZDJ/view?usp=sharing)
+ - [Trained CNN model of Grayscale Power_Spectral_Density_Spectrogram](https://drive.google.com/file/d/1YCfQBGpP-XpZd204BpqDFhjz2HFX2ZDJ/view?usp=sharing)
 
-[Trained CNN model of Melspectrograms generated after applying PCEN and Wavelet Denoising](https://drive.google.com/file/d/1jJ-E4M1Hwn7CQnZxxWlp-ejPGmdRlvPu/view?usp=sharing)
+ - [Trained CNN model of Melspectrograms generated after applying PCEN and Wavelet Denoising](https://drive.google.com/file/d/1jJ-E4M1Hwn7CQnZxxWlp-ejPGmdRlvPu/view?usp=sharing)
 
-[Trained CNN model of Melspectrograms generated after applying PCEN](https://drive.google.com/file/d/1xUiNp_OUNRLR82sOa2wy8VwaI98-FUrj/view?usp=sharing)
+ - [Trained CNN model of Melspectrograms generated after applying PCEN](https://drive.google.com/file/d/1xUiNp_OUNRLR82sOa2wy8VwaI98-FUrj/view?usp=sharing)
 ## Here are the different trained models on different spectrograms whose example has been provided
 <table border="0">
  <tr>
