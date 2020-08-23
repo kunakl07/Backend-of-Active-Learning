@@ -7,11 +7,10 @@ RUN apt install unzip
 RUN unzip awscliv2.zip
 RUN ./aws/install
 RUN aws --no-sign-request s3 cp s3://acoustic-sandbox/preprocess_mag_scipy_Srkws.h5 ./
-RUN aws --no-sign-request s3 cp s3://acoustic-sandbox/No_preprocess_test ./
-RUN unzip test_psd.zip ./
+RUN aws --no-sign-request s3 cp s3://acoustic-sandbox/test_psd.zip ./
+RUN unzip test_psd.zip 
 
 COPY report.py .
-COPY statistics.py
 COPY requirements.txt .
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
